@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -137,21 +137,21 @@ export default function PhotoGalleryPage() {
           textboxLayout="default"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Portrait Photography",
               description: "Professional headshots and artistic portraits that capture personality and character",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651371087-opgmpktz.jpg",
               imageAlt: "Professional portrait photography"
             },
             {
-              id: "2",
+              id: 2,
               title: "Landscape Photography",
               description: "Stunning natural landscapes and scenic views from around the world",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651373173-svxwqx01.jpg",
               imageAlt: "Scenic landscape photography"
             },
             {
-              id: "3",
+              id: 3,
               title: "Event Photography",
               description: "Weddings, celebrations, and special moments documented with care and artistry",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651374368-douull9k.jpg",
@@ -298,7 +298,6 @@ export default function PhotoGalleryPage() {
           testimonials={[
             {
               id: "1",
-              testimonial: "The photography session exceeded all my expectations. The photos captured our personalities perfectly and the quality was outstanding. Highly recommend!",
               name: "Sarah Johnson",
               role: "Bride",
               company: "Wedding Client",
@@ -308,7 +307,6 @@ export default function PhotoGalleryPage() {
             },
             {
               id: "2",
-              testimonial: "Professional service from start to finish. The headshots turned out amazing and really helped boost my business presence online.",
               name: "Michael Chen",
               role: "Business Owner",
               company: "Corporate Client",
@@ -318,7 +316,6 @@ export default function PhotoGalleryPage() {
             },
             {
               id: "3",
-              testimonial: "Working with this photographer was a dream. They captured every special moment of our event with such artistry and attention to detail.",
               name: "Emily Rodriguez",
               role: "Event Planner",
               company: "EventCo",
@@ -328,7 +325,6 @@ export default function PhotoGalleryPage() {
             },
             {
               id: "4",
-              testimonial: "Our family photos are absolutely beautiful. The photographer made everyone feel comfortable and the results speak for themselves.",
               name: "David Kim",
               role: "Father",
               company: "Family Client",
